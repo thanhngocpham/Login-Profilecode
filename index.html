@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="center">
+      <h1>Login</h1>
+      <form method="post">
+        <div class="txt_field">
+          <input type="text" name="em" id="em" placeholder="example@kyanon.digital" required autofocus autocomplete="off">
+          <label>Email</label>
+        </div>
+        
+        <div class="txt_field">
+          <input type="password"name="pw" id="pw" placeholder="******" required autofocus autocomplete="off"> 
+          <label>Password</label>
+        </div>
+        <input Class="cb" type="checkbox" onclick="showpw()" checked="checked" name="pass">Hide Password
+        
+      <a href="profile.html"><button type="button" value="nut" class="btn" name="btndangnhap" id="btndangnhap">Login</button></a>
+      </form>
+    </div>
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="main.js"></script>
+  </body>
+</html>
